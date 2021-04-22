@@ -8,7 +8,7 @@
 ![alt text](https://github.com/USCDTG/spatialAllelCountPipeline/blob/main/images/preProcessingPipeline.png)
 
 
-## Pre-Processing
+## Before Analysis
 
 Process a human spatial transcriptomics FASTQs through the 10X Genomics spaceranger pipeline<sup>1</sup> with GRCh38 reference. Obtain a sample binary alignment map (BAM) file and a clusters.csv file containing the header line **barcode**,**cluster**.
 #### BAM Split
@@ -17,7 +17,7 @@ Split the spatial BAM into per-cluster BAMs.
 #### VCF File
 Obtain a variant call format (VCF) file with likely heterozygous single-nucleotide polymorphism (SNP) positions. If there is companion exome data for your sample, run GATK HaplotypeCaller<sup>2</sup> and SnpEff<sup>3</sup> on an aligned BAM file with a dbSNP<sup>4</sup> database VCF for annotation. Use the snpEff -canon option to output just the canonical transcript for each SNP.
 
-## sLOH Pipeline
+## Analysis
 Save all cluster BAMs associated with a single sample in a directory. Create a file with full paths to these files for **run\_preProcessing.py** (one file per line). Create another file with sample names in format Sample1\_Cluster1, Sample2\_Cluster2 (one sample per line).
 
 
