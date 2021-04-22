@@ -5,12 +5,12 @@
 ### Overview
 
 
-![alt text](https://github.com/USCDTG/spatialAllelCountPipeline/blob/main/images/preProcessingPipeline.png)
+![alt text](https://github.com/USCDTG/spatialAlleleCountPipeline/blob/main/images/preProcessingPipeline.png)
 
 
 ## Before Analysis
 
-Process a human spatial transcriptomics FASTQs through the 10X Genomics spaceranger pipeline<sup>1</sup> with GRCh38 reference. Obtain a sample binary alignment map (BAM) file and a clusters.csv file containing the header line **barcode**,**cluster**.
+Process spatial transcriptomics FASTQs through the 10X Genomics spaceranger pipeline<sup>1</sup> with GRCh38 reference. Obtain a sample binary alignment map (BAM) file and a clusters.csv file containing the header line **barcode**,**cluster**.
 #### BAM Split
 Split the spatial BAM into per-cluster BAMs.
 
