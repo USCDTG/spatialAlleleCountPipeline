@@ -42,7 +42,6 @@ conda install pandas==1.1.5
 ## Dependencies           
 **Python:**  
 Tool optimized for python version 3.6      
-pyranges   
 numpy     1.17.0   
 pandas   1.1.5     
 pysam   0.15.4     
@@ -55,9 +54,10 @@ pysam   0.15.4
 	- Sherry,S.T., Ward,M. and Sirotkin,K. (1999) dbSNP—Database for Single Nucleotide Polymorphisms and Other Classes of Minor Genetic Variation. Genome Res., 9, 677–679.
 4. **SnpEff:** https://pcingola.github.io/SnpEff/  
 	- "A program for annotating and predicting the effects of single nucleotide polymorphisms, SnpEff: SNPs in the genome of Drosophila melanogaster strain w1118; iso-2; iso-3.", Cingolani P, Platts A, Wang le L, Coon M, Nguyen T, Wang L, Land SJ, Lu X, Ruden DM. Fly (Austin). 2012 Apr-Jun;6(2):80-92. PMID: 22728672      
-
-
-
+5. **Python** Python Software Foundation. Python Language Reference, version 3.6. Available at http://www.python.org
+6. **Numpy** Harris, C.R., Millman, K.J., van der Walt, S.J. et al. Array programming with NumPy. Nature 585, 357–362 (2020). DOI: 0.1038/s41586-020-2649-2. (Publisher link).
+7. **Pandas** Data structures for statistical computing in python, McKinney, Proceedings of the 9th Python in Science Conference, Volume 445, 2010.
+8. **Pysam** https://github.com/pysam-developers/pysam.
 
 ## Contact   
 Michelle Webb           
