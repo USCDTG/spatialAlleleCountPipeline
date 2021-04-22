@@ -5,7 +5,7 @@
 ### Overview
 
 
-![alt text](https://github.com/USCDTG/spatialAlleleCountPipeline/blob/main/images/preProcessingPipeline.png)
+![alt text](https://github.com/USCDTG/spatialAlleleCountPipeline/blob/main/images/preProcessingPipeline_overview.png)
 
 
 ## Before Analysis
