@@ -50,8 +50,13 @@ pysam   0.15.4
 ## References
 1. **10X Genomics Spaceranger Pipeline:** https://support.10xgenomics.com/spatial-gene-expression/software/pipelines/latest/what-is-space-ranger
 2. **HaplotypeCaller:** https://gatk.broadinstitute.org/hc/en-us/articles/360037225632-HaplotypeCaller
+	- Van der Auwera GA & O'Connor BD. (2020). Genomics in the Cloud: Using Docker, GATK, and WDL in Terra (1st Edition). O'Reilly Media.
 3. **dbSNP** https://www.ncbi.nlm.nih.gov/snp/
-4. **SnpEff:** https://pcingola.github.io/SnpEff/        
+	- Sherry,S.T., Ward,M. and Sirotkin,K. (1999) dbSNP—Database for Single Nucleotide Polymorphisms and Other Classes of Minor Genetic Variation. Genome Res., 9, 677–679.
+4. **SnpEff:** https://pcingola.github.io/SnpEff/  
+	- "A program for annotating and predicting the effects of single nucleotide polymorphisms, SnpEff: SNPs in the genome of Drosophila melanogaster strain w1118; iso-2; iso-3.", Cingolani P, Platts A, Wang le L, Coon M, Nguyen T, Wang L, Land SJ, Lu X, Ruden DM. Fly (Austin). 2012 Apr-Jun;6(2):80-92. PMID: 22728672      
+
+
 
 
 ## Contact   
