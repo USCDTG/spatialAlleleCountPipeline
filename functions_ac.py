@@ -1,3 +1,5 @@
+## Author: Michelle Webb
+## Functions File for tLOH pre-processing pipeline
 from pysam import VariantFile
 import pysam
 import pandas

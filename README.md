@@ -1,7 +1,7 @@
-# Spatial Allele Count Pipeline v0.1.0
+# Spatial Allele Count Pipeline v0.99.0
 04-22-2021             
 
-#### Pre-processing pipeline for the spatialLOH R package
+#### Pre-processing pipeline for the tLOH (transcriptomics LOH) R package
 ### Overview
 
 
@@ -39,6 +39,8 @@ conda install pandas==1.1.5
 
 ``python run_preProcessing.py --bamList fileContainingBAMpaths.txt --sampleList fileContainingSampleNames.txt --vcf snpEff_Annotated_HaplotypeCaller.vcf --outputDir /path/to/outputDir``
 
+
+The output of this analysis tool may be used as input for tLOH: [link](https://github.com/USCDTG/tLOH)
 ## Dependencies           
 **Python:**  
 Tool optimized for python version 3.6      

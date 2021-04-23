@@ -1,4 +1,4 @@
-# AC Tool - 0.1.0
+# AC Tool - 0.99.0
 # Functions file needs to be adjacent in directory
 from functions_ac import getVCFPos, runAC
 import argparse
